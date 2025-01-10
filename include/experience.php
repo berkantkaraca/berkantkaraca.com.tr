@@ -11,7 +11,7 @@
               <div>
                 <h3 class="h5 mb-1">Backend Developer - Remote Intern</h3>
                 <div class="text-muted text-small">Jotform Yazılım A.Ş. <small>(1 Ay)</small></div>
-              </div><img src="images/services/web-design.svg" width="48" height="48" alt="ui-ux" />
+              </div><img src="https://www.jotform.com/resources/assets/svg/jotform-logo-transparent.svg" width="170" height="54" alt="jotform" />
             </div>
           </div>
           <div class="card-body px-3">
@@ -30,7 +30,7 @@
               <div>
                 <h3 class="h5 mb-1">Backend Developer - Intern</h3>
                 <div class="text-muted text-small">Mgs Software <small>(1 Ay)</small></div>
-              </div><img src="images/services/app-development.svg" width="48" height="48" alt="app development" />
+              </div><img src="https://mgssoftware.net/wp-content/uploads/2022/10/mgs-software-logo.png" width="170" height="54" alt="mgssoftware" />
             </div>
           </div>
           <div class="card-body px-3 py-3">
@@ -49,7 +49,7 @@
               <div>
                 <h3 class="h5 mb-1">Operasyon Sorumlusu ve Site Editörlüğü</h3>
                 <div class="text-muted text-small">Düzey E-Ticaret Hizmetleri <small>(7 Ay)</small></div>
-              </div><img src="images/services/full-stack.svg" width="48" height="48" alt="app development" />
+              </div><img src="https://www.motoonline.com.tr/images/logo.png" width="170" height="54" alt="motoonline" />
             </div>
           </div>
           <div class="card-body px-3 py-3">
