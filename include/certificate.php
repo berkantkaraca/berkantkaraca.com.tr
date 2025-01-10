@@ -14,7 +14,7 @@
             $files = array_diff(scandir($dir), array('.', '..'));
             foreach ($files as $file) {
                 echo '<div class="col-md-3 mb-4">';
-                echo '<div class="card">';
+                echo '<div class="card" data-aos="fade" data-aos-delay="100">';
                 echo '<a href="#" data-bs-toggle="modal" data-bs-target="#certificateModal" data-bs-image="' . $dir . $file . '" class="image-hover">';
                 echo '<img src="' . $dir . $file . '" class="card-img-top" style="object-fit: cover; width: 235px; height: 166px;" alt="Certificate" loading="lazy">';
                 echo '<div class="overlay"><i class="fas fa-search-plus"></i></div>';
