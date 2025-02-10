@@ -9,3 +9,13 @@
 <script src="./scripts/aos.min.js?ver=1.2.0"></script>
 <script src="./scripts/main.js?ver=1.2.0"></script>
 <script src="./scripts/main.js"></script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QQR81PMY9S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QQR81PMY9S');
+</script>
