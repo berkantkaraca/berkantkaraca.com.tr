@@ -11,7 +11,8 @@
               <div>
                 <h3 class="h5 mb-1">Backend Developer - Remote Intern</h3>
                 <div class="text-muted text-small">Jotform Yazılım A.Ş. <small>(1 Ay)</small></div>
-              </div><img src="https://www.jotform.com/resources/assets/svg/jotform-logo-transparent.svg" width="170" height="54" alt="jotform" />
+              </div>
+              <img src="../images/logos/jotform.png" width="170" height="54" alt="jotform" />
             </div>
           </div>
           <div class="card-body px-3">
@@ -30,7 +31,7 @@
               <div>
                 <h3 class="h5 mb-1">Backend Developer - Intern</h3>
                 <div class="text-muted text-small">Mgs Software <small>(1 Ay)</small></div>
-              </div><img src="https://mgssoftware.net/wp-content/uploads/2022/10/mgs-software-logo.png" width="170" height="54" alt="mgssoftware" />
+              </div><img src="../images/logos/mgssoftware.png" width="170" height="54" alt="mgssoftware" />
             </div>
           </div>
           <div class="card-body px-3 py-3">
