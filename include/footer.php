@@ -2,7 +2,7 @@
   <div class="container">
     <div class="my-3">
       <div class="h4">Berkant Karaca</div>
-      <p>Jr. Web Developer & Bilgisayar Mühendisi</p>
+      <p>Jr. Backend Developer & Bilgisayar Mühendisi</p>
     </div>
   </div>
 </footer>

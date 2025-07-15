@@ -13,18 +13,12 @@
           <div class="card-body text-center">
             <h5 class="card-title">Backend</h5>
             <div class="d-flex flex-wrap justify-content-center">
-              <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/csharp-original.svg"
-                alt="C#" height="40" />
-              <img style="margin: 10px"
-                src="https://profilinator.rishav.dev/skills-assets/dot-net-original-wordmark.svg" alt=".NET"
-                height="40" />
-              <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/dotnetcore.png"
-                alt=".Net Core" height="40" />
-              <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/php-original.svg"
-                alt="PHP" height="40" />
-              <img style="margin: 10px"
-                src="https://profilinator.rishav.dev/skills-assets/laravel-plain-wordmark.svg" alt="Laravel"
-                height="40" />
+                <img src="https://skillicons.dev/icons?theme=dark&i=java" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
+                <img src="https://skillicons.dev/icons?theme=dark&i=spring" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
+                <img src="https://skillicons.dev/icons?theme=dark&i=cs" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
+                <img src="https://skillicons.dev/icons?theme=dark&i=dotnet" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
+                <img src="https://skillicons.dev/icons?theme=dark&i=php" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
+                <img src="https://skillicons.dev/icons?theme=dark&i=laravel" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
             </div>
           </div>
         </div>
@@ -34,17 +28,11 @@
           <div class="card-body">
             <h5 class="card-title text-center">Frontend</h5>
             <div class="d-flex flex-wrap justify-content-center">
-              <img style="margin: 10px"
-                src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5"
-                height="40" />
-              <img style="margin: 10px"
-                src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3"
-                height="40" />
-              <img style="margin: 10px"
-                src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript"
-                height="40" />
-              <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg"
-                alt="Bootstrap" height="40" />
+                <img src="https://skillicons.dev/icons?theme=dark&i=html" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
+                <img src="https://skillicons.dev/icons?theme=dark&i=css" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
+                <img src="https://skillicons.dev/icons?theme=dark&i=js" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
+                <img src="https://skillicons.dev/icons?theme=dark&i=bootstrap" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
+                <img src="https://skillicons.dev/icons?theme=dark&i=react" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
             </div>
           </div>
         </div>
@@ -54,19 +42,12 @@
           <div class="card-body">
             <h5 class="card-title text-center">Database</h5>
             <div class="d-flex flex-wrap justify-content-center">
-              <img style="margin: 10px" src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg"
-                alt="MSSQL" height="40" />
-              <img style="margin: 10px"
-                src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL"
-                height="40" />
-              <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/oracle-original.svg"
-                alt="Oracle" height="40" />
-              <img style="margin: 10px"
-                src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" alt="MongoDB"
-                height="40" />
-              <img style="margin: 10px"
-                src="https://profilinator.rishav.dev/skills-assets/redis-original-wordmark.svg" alt="Redis"
-                height="40" />
+                <img src="https://skillicons.dev/icons?theme=dark&i=postgres" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
+                <img src="https://skillicons.dev/icons?theme=dark&i=mysql" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
+                <img src="https://skillicons.dev/icons?theme=dark&i=mongodb" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
+                <img src="https://skillicons.dev/icons?theme=dark&i=redis" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
+                <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="MSSQL" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
+                <img src="https://profilinator.rishav.dev/skills-assets/oracle-original.svg" alt="Oracle" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
             </div>
           </div>
         </div>
@@ -76,19 +57,11 @@
           <div class="card-body">
             <h5 class="card-title text-center">Tools</h5>
             <div class="d-flex flex-wrap justify-content-center">
-              <img style="margin: 10px" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git"
-                height="40" />
-              <img style="margin: 10px"
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
-                alt="Docker" height="40" />
-              <img style="margin: 10px"
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg"
-                alt="Postman" height="40" />
-              <img style="margin: 10px"
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swagger/swagger-original.svg"
-                alt="Swagger" height="40" />
-              <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/xampp.png" alt="XAMPP"
-                height="40" />
+                <img src="https://skillicons.dev/icons?theme=dark&i=git" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
+                <img src="https://skillicons.dev/icons?theme=dark&i=docker" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
+                <img src="https://skillicons.dev/icons?theme=dark&i=postman" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swagger/swagger-original.svg" alt="Swagger" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
+                <img src="https://profilinator.rishav.dev/skills-assets/xampp.png" alt="XAMPP" height="40" style="margin-right: 5px; margin-bottom: 5px;"/>
             </div>
           </div>
         </div>

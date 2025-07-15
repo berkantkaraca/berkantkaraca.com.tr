@@ -17,77 +17,77 @@
             </div>
           </div>
           <div class="card-body px-3 py-2">
-            <p>
-              Aktif olarak geliştirdiğim projede kargo, sepet, katalog, indirim, sipariş  identity mikroservislerini yazdım.
-              CQRS, Mediator ve Generic Repository tasarımlarını uyguladım.
-              Mikroservis, Onion Architecture ve N-Katmanlı mimarileri kullandım.
-              Veritabanı olarak MSSQL, MongoDB ve Redis kullandım. Veritabanlarını Docker üzerinden ayağa kaldırdım.
-              JSON Web Token ile yetkilendirme işlemlerini gerçekleştirdim.
-          
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-12">
-        <div class="card mb-3" data-aos="fade-left" data-aos-delay="100">
-          <div class="card-header px-3 py-2">
-            <div class="d-flex justify-content-between">
-              <div>
-                <h3 class="h5 mb-1">Query Builder </h3>
-                <div class="text-muted text-small">PHP</div>
-              </div>
-              <a href="https://github.com/berkantkaraca/NoteApp" class="btn btn-primary" target="_blank">Projeyi
-                incele</a>
-            </div>
-          </div>
-          <div class="card-body px-3 py-2">
-            <p>
-              AI destekli SQL sorusu üreten bir sistem tasarladık. Ben backend kısmında görev aldım. Sistem, kullanıcıların sorularını OpenAI API'sini
-              kullanarak SQL sorgularına dönüştürür ve sonuçları tablo ve grafik formatında sunar. Kullanıcıların
-              sorularını ve dönen cevap geçmişini kaydeder ve bu geçmişe erişim sağlar. Kullanıcıya alternatif soru
-              önerileri sunarak kullanıcı deneyimini iyileştirir.
-            </p>
-            <h5>Kullanılan Teknolojiler:</h5>
+
+            <p>Modern mikroservis mimarisi ile geliştirilmiş e-ticaret platformudur.</p>
+
+            <p>Mimari Tasarım Desenleri</p>
             <ul>
-              <li>PHP</li>
-              <li>OpenAI API</li>
-              <li>MySQL</li>
-              <li>cURL</li>
-              <li>JSON</li>
-              <li>Prompt Yazımı</li>
-              <li>MVC Mimarisi</li>
+              <li>CQRS (Command Query Responsibility Segregation)</li>
+              <li>Mediator Pattern</li>
+              <li>Repository Pattern</li>
+              <li>Onion Architecture</li>
+              <li>N-Layer Architecture</li>
             </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-12">
-        <div class="card mb-3" data-aos="fade-right" data-aos-delay="100">
-          <div class="card-header px-3 py-2">
-            <div class="d-flex justify-content-between">
-              <div>
-                <h3 class="h5 mb-1">Not Alma Uygulaması</h3>
-                <div class="text-muted text-small">PHP - Laravel</div>
-              </div>
-              <a href="https://notes.berkantkaraca.com.tr" class="btn btn-primary" target="_blank">Projeyi incele</a>
-            </div>
-          </div>
-          <div class="card-body px-3 py-2">
-            <p>
-              Laravel framework'ü kullanılarak geliştirilmiş bir not yönetim sistemidir. Projenin amacı,
-              kullanıcıların notlarını dijital ortamda güvenli bir şekilde yönetebilmelerini sağlamaktır.
-              Kullanıcılar, sisteme kayıt olup giriş yaptıktan sonra notlarını oluşturabilir, güncelleyebilir,
-              görüntüleyebilir ve silebilirler. Ayrıca, kullanıcılar hesap bilgilerinide güncelleyebilirler. Proje,
-              kullanıcı kimlik doğrulaması ve yetkilendirme işlemlerini de içermektedir.
-            </p>
-            <h5>Kullanılan Teknolojiler:</h5>
+
+            <p>Temel Özellikler</p>
             <ul>
-              <li>PHP - Laravel</li>
-              <li>MySQL</li>
-              <li>Blade Templating Engine</li>
-              <li>HTML/CSS</li>
-              <li>Bootstrap</li>
-              <li>JavaScript</li>
-              <li>MVC Mimarisi</li>
+              <li><strong>Kullanıcı Yönetimi:</strong> Güvenli kayıt/giriş, JWT token tabanlı kimlik doğrulama</li>
+              <li><strong>Ürün Yönetimi:</strong> Kategori bazlı ürün listeleme, arama ve filtreleme</li>
+              <li><strong>Sepet İşlemleri:</strong> Dinamik sepet yönetimi, Redis ile performanslı cache</li>
+              <li><strong>İndirim Sistemi:</strong> Kupon kodları ile esnek indirim mekanizması</li>
+              <li><strong>Admin Paneli:</strong> Kapsamlı yönetim arayüzü, istatistikler ve raporlama</li>
+            </ul>
+
+            <p>Güvenlik Özellikleri</p>
+            <ul>
+              <li><strong>JWT Token Authentication:</strong> Güvenli oturum yönetimi</li>
+              <li><strong>IdentityServer4:</strong> Merkezi kimlik doğrulama servisi</li>
+              <li><strong>CORS Politikaları:</strong> Cross-origin güvenlik kontrolü</li>
+              <li><strong>HTTPS/SSL:</strong> Güvenli veri iletimi</li>
+              <li><strong>Role-Based Authorization:</strong> Rol bazlı yetkilendirme</li>
+            </ul>
+
+            <p>Mikroservis Yapısı</p>
+            <div>
+              <table class="table table-striped table-hover">
+                <thead class="table-dark">
+                  <tr>
+                    <th scope="col">Mikroservis</th>
+                    <th scope="col">Açıklama</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td><strong>API Gateway (Ocelot)</strong></td><td>İstek yönlendirme</td></tr>
+                  <tr><td><strong>Identity Server</strong></td><td>Kimlik doğrulama</td></tr>
+                  <tr><td><strong>Catalog</strong></td><td>Ürün kataloğu</td></tr>
+                  <tr><td><strong>Discount</strong></td><td>İndirim kuponları</td></tr>
+                  <tr><td><strong>Order</strong></td><td>Sipariş yönetimi</td></tr>
+                  <tr><td><strong>Cargo</strong></td><td>Kargo işlemleri</td></tr>
+                  <tr><td><strong>Basket</strong></td><td>Sepet yönetimi</td></tr>
+                  <tr><td><strong>Comment</strong></td><td>Ürün yorumları</td></tr>
+                  <tr><td><strong>Message</strong></td><td>Mesajlaşma sistemi</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <br>
+            <p>Kullanılan Teknolojiler</p>
+            <ul>
+              <li><strong>Backend Framework:</strong> ASP.NET Core 6.0</li>
+              <li><strong>Mimari:</strong> Mikroservis Mimarisi</li>
+              <li><strong>API Gateway:</strong> Ocelot</li>
+              <li><strong>Kimlik Yönetimi:</strong> IdentityServer4</li>
+              <li><strong>Veritabanları:</strong>
+                <ul>
+                  <li>MongoDB (Catalog)</li>
+                  <li>Redis (Basket - NoSQL)</li>
+                  <li>MSSQL Server (Order, Cargo, Comment, Identity)</li>
+                  <li>PostgreSQL (Message)</li>
+                </ul>
+              </li>
+              <li><strong>ORM Teknolojileri:</strong> Entity Framework Core, Dapper</li>
+              <li><strong>Container:</strong> Docker</li>
+              <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript, Bootstrap, Ajax</li>
             </ul>
           </div>
         </div>
