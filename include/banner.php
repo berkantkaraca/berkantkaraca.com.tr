@@ -1,7 +1,7 @@
 <div class="cover bg-light">
     <div class="container px-3">
         <div class="row">
-            <div class="col-lg-6 p-2"><img class="avatar img-fluid mt-2 ms-5" src="images/avatar.jpg" width="450" height="500" alt="Berkant Karaca" /></div>
+            <div class="col-lg-6 p-2"><img class="avatar img-fluid mt-2 ms-5" src="images/avatar.webp" width="450" height="500" alt="Berkant Karaca - Jr. Backend Developer ve Bilgisayar Mühendisi Profil Fotoğrafı" fetchpriority="high" /></div>
             <div class="col-lg-6">
                 <div class="mt-5">
                     <p class="lead text-uppercase mb-1">Merhaba!</p>

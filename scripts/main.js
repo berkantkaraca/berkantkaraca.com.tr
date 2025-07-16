@@ -18,6 +18,36 @@
       mirror: false,
       disable: 'mobile'
     });
+
+    // CV Download Buttons
+    const trCvButton = document.querySelector('.tr-cv-button');
+    const enCvButton = document.querySelector('.en-cv-button');
+    const trMektupButton = document.querySelector('.tr-mektup-button');
+    const enLetterButton = document.querySelector('.en-letter-button');
+
+    if (trCvButton) {
+      trCvButton.addEventListener('click', function() {
+        window.open('CV/TR_CV.pdf', '_blank');
+      });
+    }
+
+    if (enCvButton) {
+      enCvButton.addEventListener('click', function() {
+        window.open('CV/EN_CV.pdf', '_blank');
+      });
+    }
+
+    if (trMektupButton) {
+      trMektupButton.addEventListener('click', function() {
+        window.open('CV/TR_Mektup.pdf', '_blank');
+      });
+    }
+
+    if (enLetterButton) {
+      enLetterButton.addEventListener('click', function() {
+        window.open('CV/EN_Letter.pdf', '_blank');
+      });
+    }
   }
 
   /**
@@ -87,16 +117,5 @@
      })
     )
   }))
-
-// CV Download
-document.querySelector('.tr-cv-button').addEventListener('click', function() {
-  window.open('CV/TR_CV.pdf', '_blank');
-});
-
-document.querySelector('.en-cv-button').addEventListener('click', function() {
-  window.open('CV/EN_CV.pdf', '_blank');
-});
-
-
 
 })();

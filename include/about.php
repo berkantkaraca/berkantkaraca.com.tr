@@ -13,20 +13,20 @@
       </div>
       <div class="col-md-3 offset-md-1 d-flex flex-column justify-content-center" data-aos="fade-left" data-aos-delay="100">
         <div class="text-center">
-          <img src="https://flagcdn.com/w40/tr.png" alt="Türk Bayrağı" width="24" height="16">
+          <img src="https://flagcdn.com/w40/tr.png" alt="Türk Bayrağı" width="36" height="20">
           Türkçe
         </div>
         <button class="btn btn-primary shadow-sm mt-1 hover-effect tr-cv-button text-start"><i class="fas fa-download me-2"></i>Özgeçmiş</button>
-        <button class="btn btn-primary shadow-sm mt-1 hover-effect tr-cv-button text-start"><i class="fas fa-download me-2"></i>Niyet Mektubu</button>
+        <button class="btn btn-primary shadow-sm mt-1 hover-effect tr-mektup-button text-start"><i class="fas fa-download me-2"></i>Niyet Mektubu</button>
         <br>
 
 
         <div class="text-center mt-2">
-          <img src="https://flagcdn.com/w40/gb.png" alt="İngiliz Bayrağı" width="24" height="16">
+          <img src="https://flagcdn.com/w40/gb.png" alt="İngiliz Bayrağı" width="36" height="20">
           English
         </div>
         <button class="btn btn-primary shadow-sm mt-1 hover-effect en-cv-button text-start"><i class="fas fa-download me-2"></i>CV</button>
-        <button class="btn btn-primary shadow-sm mt-1 hover-effect en-cv-button text-start"><i class="fas fa-download me-2"></i>Cover Letter</button>
+        <button class="btn btn-primary shadow-sm mt-1 hover-effect en-letter-button text-start"><i class="fas fa-download me-2"></i>Cover Letter</button>
       </div>
 
     </div>

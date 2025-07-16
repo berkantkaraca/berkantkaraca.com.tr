@@ -50,7 +50,7 @@
           </div>
         </div>
         <div class="col-md-12">
-          <div class="card mb-3" data-aos="fade-right" data-aos-delay="100">
+          <div class="card mb-3" data-aos="fade-left" data-aos-delay="100">
             <div class="card-header px-3 py-2">
               <div class="d-flex justify-content-between">
                 <div>
@@ -81,7 +81,7 @@
           </div>
         </div>
         <div class="col-md-12">
-          <div class="card mb-3" data-aos="fade-left" data-aos-delay="100">
+          <div class="card mb-3" data-aos="fade-right" data-aos-delay="100">
             <div class="card-header px-3 py-2">
               <div class="d-flex justify-content-between">
                 <div>
@@ -118,7 +118,7 @@
           </div>
         </div>
         <div class="col-md-12">
-          <div class="card mb-3" data-aos="fade-right" data-aos-delay="100">
+          <div class="card mb-3" data-aos="fade-left" data-aos-delay="100">
             <div class="card-header px-3 py-2">
               <div class="d-flex justify-content-between">
                 <div>

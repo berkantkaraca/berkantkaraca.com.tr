@@ -10,7 +10,7 @@
             <div class="d-flex justify-content-between">
               <div>
                 <h3 class="h5 mb-1">Bandırma Onyedi Eylül Üniversitesi</h3>
-                <h6 class="h6 mb-1">Bilgisayar Mühendisliği </h6>
+                <div class="h6 mb-1">Bilgisayar Mühendisliği </div>
                 <div class="text-muted text-small">2021 – 2025</div>
               </div><img src="images/services/ui-ux.svg" width="48" height="48" alt="ui-ux" />
             </div>
@@ -30,7 +30,7 @@
             <div class="d-flex justify-content-between">
               <div>
                 <h3 class="h5 mb-1">Czestochowa University of Technology</h3>
-                <h6 class="h6 mb-1">Computer Science</h6>
+                <div class="h6 mb-1">Computer Science</div>
                 <div class="text-muted text-small">1 Dönem (4.5 ay)</div>
               </div><img src="images/services/ui-ux.svg" width="48" height="48" alt="app development" />
             </div>

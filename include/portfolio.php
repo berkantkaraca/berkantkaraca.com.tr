@@ -12,83 +12,41 @@
                 <h3 class="h5 mb-1">E-Ticaret Sitesi </h3>
                 <div class="text-muted text-small">ASP .Net Core</div>
               </div>
-              <a href="https://github.com/berkantkaraca/MultiShop" class="btn btn-primary" target="_blank">Projeyi
-                incele</a>
             </div>
           </div>
           <div class="card-body px-3 py-2">
 
-            <p>Modern mikroservis mimarisi ile geliştirilmiş e-ticaret platformudur.</p>
+            <p>Modern mikroservis mimarisi ile geliştirilmiş e-ticaret platformudur. Projede CQRS (Command Query Responsibility Segregation), Mediator Pattern, Repository Pattern, Onion Architecture ve N-Layer Architecture gibi mimari tasarım desenleri kullanılmıştır.</p>
 
-            <p>Mimari Tasarım Desenleri</p>
+            <p><strong>Temel Özellikler:</strong> Platform, güvenli kayıt/giriş sistemi ve JWT token tabanlı kimlik doğrulama ile kullanıcı yönetimi sağlar. Kategori bazlı ürün listeleme, arama ve filtreleme özellikleri ile ürün yönetimi sunar. Dinamik sepet yönetimi ve Redis ile performanslı cache sistemi ile sepet işlemlerini optimize eder. Kupon kodları ile esnek indirim mekanizması ve kapsamlı yönetim arayüzü, istatistikler ve raporlama içeren admin paneli bulunur.</p>
+
+            <p><strong>Güvenlik Özellikleri:</strong> Sistem, JWT Token Authentication ile güvenli oturum yönetimi, IdentityServer4 ile merkezi kimlik doğrulama servisi, CORS politikaları ile cross-origin güvenlik kontrolü, HTTPS/SSL ile güvenli veri iletimi ve role-based authorization ile rol bazlı yetkilendirme özelliklerini içerir.</p>
+
+            <p>Mikroservis Yapısı:</p>
             <ul>
-              <li>CQRS (Command Query Responsibility Segregation)</li>
-              <li>Mediator Pattern</li>
-              <li>Repository Pattern</li>
-              <li>Onion Architecture</li>
-              <li>N-Layer Architecture</li>
+              <li><strong>API Gateway (Ocelot)</strong> => İstek yönlendirme</li>
+              <li><strong>Identity Server</strong> => Kimlik doğrulama</li>
+              <li><strong>Catalog</strong> => Ürün kataloğu</li>
+              <li><strong>Discount</strong> => İndirim kuponları</li>
+              <li><strong>Order</strong> => Sipariş yönetimi</li>
+              <li><strong>Cargo</strong> => Kargo işlemleri</li>
+              <li><strong>Basket</strong> => Sepet yönetimi</li>
+              <li><strong>Comment</strong> => Ürün yorumları</li>
+              <li><strong>Message</strong> => Mesajlaşma sistemi</li>
             </ul>
 
-            <p>Temel Özellikler</p>
-            <ul>
-              <li><strong>Kullanıcı Yönetimi:</strong> Güvenli kayıt/giriş, JWT token tabanlı kimlik doğrulama</li>
-              <li><strong>Ürün Yönetimi:</strong> Kategori bazlı ürün listeleme, arama ve filtreleme</li>
-              <li><strong>Sepet İşlemleri:</strong> Dinamik sepet yönetimi, Redis ile performanslı cache</li>
-              <li><strong>İndirim Sistemi:</strong> Kupon kodları ile esnek indirim mekanizması</li>
-              <li><strong>Admin Paneli:</strong> Kapsamlı yönetim arayüzü, istatistikler ve raporlama</li>
-            </ul>
-
-            <p>Güvenlik Özellikleri</p>
-            <ul>
-              <li><strong>JWT Token Authentication:</strong> Güvenli oturum yönetimi</li>
-              <li><strong>IdentityServer4:</strong> Merkezi kimlik doğrulama servisi</li>
-              <li><strong>CORS Politikaları:</strong> Cross-origin güvenlik kontrolü</li>
-              <li><strong>HTTPS/SSL:</strong> Güvenli veri iletimi</li>
-              <li><strong>Role-Based Authorization:</strong> Rol bazlı yetkilendirme</li>
-            </ul>
-
-            <p>Mikroservis Yapısı</p>
-            <div>
-              <table class="table table-striped table-hover">
-                <thead class="table-dark">
-                  <tr>
-                    <th scope="col">Mikroservis</th>
-                    <th scope="col">Açıklama</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr><td><strong>API Gateway (Ocelot)</strong></td><td>İstek yönlendirme</td></tr>
-                  <tr><td><strong>Identity Server</strong></td><td>Kimlik doğrulama</td></tr>
-                  <tr><td><strong>Catalog</strong></td><td>Ürün kataloğu</td></tr>
-                  <tr><td><strong>Discount</strong></td><td>İndirim kuponları</td></tr>
-                  <tr><td><strong>Order</strong></td><td>Sipariş yönetimi</td></tr>
-                  <tr><td><strong>Cargo</strong></td><td>Kargo işlemleri</td></tr>
-                  <tr><td><strong>Basket</strong></td><td>Sepet yönetimi</td></tr>
-                  <tr><td><strong>Comment</strong></td><td>Ürün yorumları</td></tr>
-                  <tr><td><strong>Message</strong></td><td>Mesajlaşma sistemi</td></tr>
-                </tbody>
-              </table>
-            </div>
-
-            <br>
-            <p>Kullanılan Teknolojiler</p>
+            <p>Kullanılan Teknolojiler:</p>
             <ul>
               <li><strong>Backend Framework:</strong> ASP.NET Core 6.0</li>
               <li><strong>Mimari:</strong> Mikroservis Mimarisi</li>
               <li><strong>API Gateway:</strong> Ocelot</li>
               <li><strong>Kimlik Yönetimi:</strong> IdentityServer4</li>
-              <li><strong>Veritabanları:</strong>
-                <ul>
-                  <li>MongoDB (Catalog)</li>
-                  <li>Redis (Basket - NoSQL)</li>
-                  <li>MSSQL Server (Order, Cargo, Comment, Identity)</li>
-                  <li>PostgreSQL (Message)</li>
-                </ul>
-              </li>
+              <li><strong>Veritabanları:</strong>MongoDB (Catalog), Redis (Basket - NoSQL), MSSQL Server (Order, Cargo, Comment, Identity), PostgreSQL (Message)</li>
               <li><strong>ORM Teknolojileri:</strong> Entity Framework Core, Dapper</li>
               <li><strong>Container:</strong> Docker</li>
               <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript, Bootstrap, Ajax</li>
             </ul>
+            <a href="https://github.com/berkantkaraca/ECommerce" class="btn btn-primary" target="_blank">Projeyi incele</a>
           </div>
         </div>
       </div>
